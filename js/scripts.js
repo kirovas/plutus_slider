@@ -43,11 +43,11 @@ $(document).ready(function() {
 	
 	$('.left .timeline_item').waypoint(function(down) {
 		$(this).addClass('animation');
-		$(this).addClass('fadeInLeft');
+		$(this).addClass('slideInLeft');
 	}, { offset: '100%' });
 	$('.right .timeline_item').waypoint(function(down) {
 		$(this).addClass('animation');
-		$(this).addClass('fadeInRight');
+		$(this).addClass('slideInRight');
 	}, { offset: '100%' });
 	/*function heightDetect() {
 		$(".fw_slider").css("height", $(window).height());
@@ -107,6 +107,7 @@ $(window).load(function() {
   $('.flexslider').flexslider({
     animation: "slide",
 	directionNav: false,
+	animation: "fade",
 	controlsContainer: ".slider_bullet"
   });
 });
@@ -114,6 +115,7 @@ $(window).load(function() {
   $('.com_inner').flexslider({
     animation: "slide",
 	directionNav: false,
+	
 	controlsContainer: ".com_slider_bul"
   });
 });

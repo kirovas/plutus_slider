@@ -198,29 +198,31 @@ html[xmlns] .flexslider .slides {
   *display: inline;
 }
 .flex-control-paging li a {
-  width: 11px;
-  height: 11px;
+  width: 12px;
+  height: 12px;
   display: block;
-  background: #fff;
+  background: rgba(255, 255, 255, 1);
   cursor: pointer;
   text-indent: -9999px;
-  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
-  -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  margin:2px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  border:2px solid transparent;
+  box-sizing:initial;
 }
 .flex-control-paging li a:hover {
+width: 12px;
+  height: 12px;
+    margin:0px;
   background: #fff;
  border:2px solid #d64541;
 }
 .flex-control-paging li a.flex-active {
   background: #fff;
-  background: rgba(255, 255, 255, 0.9);
   cursor: default;
+   margin:0px;
+  width: 12px;
+  height: 12px;
   border:2px solid #d64541;
 }
 .flex-control-thumbs {
