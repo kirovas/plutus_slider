@@ -49,14 +49,14 @@ $(document).ready(function() {
 		$(this).addClass('animation');
 		$(this).addClass('fadeInRight');
 	}, { offset: '100%' });
-	function heightDetect() {
+	/*function heightDetect() {
 		$(".fw_slider").css("height", $(window).height());
 		$(".top").css("height", $(window).height());
 	};
 	heightDetect();
 	$(window).resize(function() {
 		heightDetect();
-	});
+	});*/
 	
 	$(".toggle_mnu").click(function() {
 		$(".sandwich").toggleClass("active");
