@@ -1467,6 +1467,9 @@ and (max-width : 320px) {
 .timeline_container .left .timeline_item{
 	margin-right:0px;
 }
+.timeline_container .left{
+	padding-bottom:0px;
+}
 .timeline_container .right{
 	padding-top: 0px;
 }
@@ -1532,6 +1535,9 @@ and (max-width : 480px) {
 .timeline_container .left .timeline_item{
 	margin-right:0px;
 }
+.timeline_container .left{
+	padding-bottom:0px;
+}
 .timeline_container .right{
 	padding-top: 0px;
 }
@@ -1588,6 +1594,9 @@ and (max-width : 768px) {
 }
 .timeline_container .left .timeline_item{
 	margin-right:0px;
+}
+.timeline_container .left{
+	padding-bottom:0px;
 }
 .timeline_container .right{
 	padding-top: 0px;
