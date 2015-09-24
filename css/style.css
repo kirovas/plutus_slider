@@ -694,7 +694,8 @@ section {
 	position:relative;
 	padding:70px 0px 60px;
 	overflow:hidden;
-	background:url(../images/bg1.jpg)no-repeat center center;
+	background:url(../images/bg1.jpg)no-repeat fixed;
+	background-position: 50% 50% !important;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1112,7 +1113,8 @@ border-color: transparent #f4f4f4 transparent transparent;
 	position:relative;
 	padding:70px 0px 60px;
 	overflow:hidden;
-	background:url(../images/tourist-nyc.jpg)no-repeat top center;
+	background:url(../images/tourist-nyc.jpg)no-repeat fixed;
+	background-position: 50% 50% !important;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1465,6 +1467,9 @@ and (max-width : 320px) {
 .timeline_container .left .timeline_item{
 	margin-right:0px;
 }
+.timeline_container .right{
+	padding-top: 0px;
+}
 .timeline_container .right .timeline_item{
 	margin-left:0px;
 }
@@ -1527,6 +1532,9 @@ and (max-width : 480px) {
 .timeline_container .left .timeline_item{
 	margin-right:0px;
 }
+.timeline_container .right{
+	padding-top: 0px;
+}
 .timeline_container .right .timeline_item{
 	margin-left:0px;
 }
@@ -1581,8 +1589,12 @@ and (max-width : 768px) {
 .timeline_container .left .timeline_item{
 	margin-right:0px;
 }
+.timeline_container .right{
+	padding-top: 0px;
+}
 .timeline_container .right .timeline_item{
 	margin-left:0px;
+	
 }
 .timeline_container .right .timeline_item  .time_pin, .timeline_container .left .timeline_item  .time_pin{
 	display:none;

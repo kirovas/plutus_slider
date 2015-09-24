@@ -1,4 +1,8 @@
+$(document).ready(function(){
+	
+	$('.counter, .comments').parallax("50%", 0.1);
 
+})
 $(document).ready(function() {
 // ############# mixITUp init ######################
 	$("#portfolio_grid").mixItUp();
