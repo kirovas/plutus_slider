@@ -1180,7 +1180,7 @@ border-color: transparent #f4f4f4 transparent transparent;
   background-position: top left;
   background-repeat: no-repeat;
 }
-.u-comment span{
+.u-comment > div{
 	display: block;
     	background-image: url(../images/closequote1.png);
     	background-repeat: no-repeat;
